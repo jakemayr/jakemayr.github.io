@@ -5,16 +5,16 @@
  <head>
   <style>
   .bg-1 {
-    background-color: #87CEFA; /* Green */
+    background-color: #87CEFA; /* Sky blue: 87CEFA; */
     color: #ffffff;
   }
   .bg-2 {
-    background-color: #474e5d; /* Dark Blue */
-    color: #ffffff;
+    background-color: #ffffff; /* Dark Blue 474e5d */
+    color: #555555;
   }
   .bg-3 {
-    background-color: #ffffff; /* White */
-    color: #555555;
+    background-color: #474e5d; /*White ffffff Text: 555555*/
+    color: #ffffff;
   }
   .container-fluid {
   padding-top: 70px;
@@ -28,13 +28,33 @@
 	  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	  	<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">HOME</a></li>
+        <li><a href="JakeMayrResume2019.pdf">RESUME</a></li>
+        <li><a href="mailto:jakemayr@umich.edu">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
  </head>
 
 <body>
 
 <div class="container-fluid bg-1 text-center">
 	<h1>Jake Mayr</h1>
- 	<img src="square_headshot.jpg" class="img-circle" width="200" height="200" alt="headshot">
+ 	<img src="square_headshot.jpg" class="img-responsive img-circle" style="display:inline" width="20%" height="auto" alt="headshot">
 	<h4 id='date'></h4>
 </div>
 
